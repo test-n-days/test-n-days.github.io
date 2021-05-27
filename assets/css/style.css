@@ -1,0 +1,14 @@
+ small + small {
+     display: none;
+ }
+
+ input:valid + small + small{
+    display: inline;
+ }
+ input:valid + small{
+    display: none;
+ }
+
+ input:invalid{
+    background-color: rgb(255, 144, 144);
+ }
