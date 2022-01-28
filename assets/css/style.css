@@ -14,7 +14,7 @@ ul.hr {
    }
    ul.hr li {
     display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
+    margin-right: 25px; /* Отступ слева */
     border: 0px ; /* Рамка вокруг текста */
     padding: 3px; /* Поля вокруг текста */
    }
@@ -34,7 +34,7 @@ ul.hr {
     border-bottom: 1px white solid;
 }
 .telli{
-
+        text-align: right;
         list-style-type: none; 
        
 }
@@ -72,13 +72,21 @@ ul.hr {
     margin-top: 25px;
 }
 .vola{
+    color: #1E6292;
     text-decoration: none;
     font-weight: bold;
     font-size: 16pt;
+    
+}
+
+.vol{
     color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16pt;
 }
 .descript{
-    max-width: 600px;
+    max-width: 740px;
 }
 .namesul{
     list-style-type: none; 
@@ -95,3 +103,4 @@ ul.hr {
 .telul{
     text-align: right;
 }
+
